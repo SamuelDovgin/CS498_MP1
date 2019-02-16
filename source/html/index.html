@@ -1,6 +1,22 @@
-<div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    <input type="text" placeholder="Enter Barcode..">
-  </div>
+<div class="hero-unit">
+    <h1> Title </h1>
+    <p> This form description </p>  
+    <form class="well" name="formInput" action= "#">
+        <label>Input</label>
+        <input Id="txtvarInput" class="span3" style="margin: 0pt auto;" type="text" placeholder="AAA, BBB, CCC..." data-provide="typeahead" data-items="10" data-source="[&quot;AAA&quot;,&quot;BBB&quot;,&quot;CCC&quot;,&quot;DDD&quot;,&quot;EEE&quot;,&quot;FFF&quot;,&quot;GGG&quot;,&quot;HHH&quot;,&quot;III&quot;,&quot;JJJ&quot;,&quot;KKK&quot;,&quot;LLL&quot;]"/>               
+        </label>
+        <div class="form-actions" "span3">
+            <input name="submit" type="submit" class="btn" value="Select" onclick="alert('you chose ' + theInput.value)"/>
+            <script language="JavaScript" type="Text/JavaScript">
+                var theInput = document.getElementById('txtvarInput');
+            </script>
+        </div>
+    </form>
+</div>
+
+<div class="page-header">
+    <h1>Input:
+        <script language="JavaScript" type="Text/JavaScript">
+            document.write(theInput.value);
+        </script>
+    </h1>
