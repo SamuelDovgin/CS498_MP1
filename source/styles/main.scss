@@ -4,29 +4,15 @@ $transpfilter: rgba(0,0,0,0.8);
 
 html {
   scroll-behavior: smooth;
-}
-
-.body{
-  background-image: linear-gradient(rgb(14, 14, 53), rgb(121, 213, 241));
-  /*rgb(89, 155, 175);
-  rgb(71, 157, 179)*/
-  height: 2200px;
-  margin: 0px 0px 0px 0px;
-  font-family: 'Montserrat';
-  overflow-x: hidden;
-}
-
-.navbar {
-  inline-size: 100%;
-  padding: 5px 10px 5px 0px;
-  font-weight: 600;
-  font-family: 'Montserrat';
-  overflow: hidden;
-  background-color: rgb(6, 6, 22);
-  position: fixed;
-  z-index: 100;
-  transition: .15s linear padding;
-  transition: .15 ease-in-out background-color;
+  .body{
+    background-image: linear-gradient(rgb(14, 14, 53), rgb(121, 213, 241));
+    /*rgb(89, 155, 175);
+    rgb(71, 157, 179)*/
+    height: 2200px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+  }
 }
 
 .bignavbar{
@@ -40,118 +26,54 @@ html {
   z-index: 100;
   transition: .15s linear padding;
   transition: .15 linear background-color;
-}
-
-.navbarhighlight{
-  color: rgb(14, 14, 53);
-  background-color: $lightblue;
-  transition: .15 linear background-color;
-}
-
-#intro_info{
-  margin-top: 85px;
-  position: absolute;
-  font-family: 'Montserrat';
-  text-align: center;
-  font-size: 200%;
-  width: 100%;
-  left: 50%;
-  top: 82%;
-  transform: translate(-50%, -100%);
-  color: white;
-  z-index: 10;
-  white-space: nowrap;
-}
-
-.bignavbar a:hover {
-  color:$medblue;
-}
-
-.navbar a:hover {
-  color: $medblue;
-}
-
-/* Navbar links */
-
-.headlinks {
-  font-family: 'Montserrat';
-  font-size: 120%;
-  float: right;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-  transition: .15s linear font-size;
-  border-radius: 5px;
-} 
-
-.background_image{
-  position: absolute;
-  margin-top: 30px;
-  width: 100%;
-  height: 115%;
-  overflow: hidden;
-  opacity: 0.9;
-}
-
-.bigheadlinks {
-  font-family: 'Montserrat';
-  font-size: 170%;
-  float: right;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-  transition: .15s linear font-size;
-  border-radius: 5px;
-}
-
-.intro{
-  position: relative;
-  height: 500px;
-  margin: 0;
-}
-
-.profile_pic{
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  top: 70%;
-  transform: translate(-50%, -100%);
-  border: 4px solid rgb(14, 14, 53);
-  height: auto; 
-  width: auto; 
-  max-width: 250px; 
-  max-height: 250px;
-}
-
-.name_title{
-  position: absolute;
-  font-family: 'Montserrat';
-  text-align: center;
-  font-size: 450%;
-  left: 50%;
-  top: 82%;
-  transform: translate(-50%, -100%);
-  color: white;
-  z-index: 10;
-  white-space: nowrap;
-}
-
-.description {
-  font-weight: 200;
-  font-size: 1.5em;
-  margin-top: 40px;
-}
-
-.projects {
-  padding-bottom: 50px;
-}
-
-.project-contain {
-  padding: 0px 200px 0px;
+  .navbar {
+    inline-size: 100%;
+    padding: 5px 10px 5px 0px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    overflow: hidden;
+    background-color: rgb(6, 6, 22);
+    position: fixed;
+    z-index: 100;
+    transition: .15s linear padding;
+    transition: .15 ease-in-out background-color;
+  }
+  .navbarhighlight{
+    color: rgb(14, 14, 53);
+    background-color: $lightblue;
+    transition: .15 linear background-color;
+  }
+  .bignavbar a:hover {
+    color:$medblue;
+  }
+  
+  .navbar a:hover {
+    color: $medblue;
+  }
+  .bigheadlinks {
+    font-family: 'Montserrat';
+    font-size: 170%;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: .15s linear font-size;
+    border-radius: 5px;
+  }
+  .headlinks {
+    font-family: 'Montserrat';
+    font-size: 120%;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: .15s linear font-size;
+    border-radius: 5px;
+  } 
 }
 
 #projectstitle{
@@ -169,6 +91,122 @@ html {
   margin-top: 120px;
 }
 
+.intro{
+  position: relative;
+  height: 500px;
+  margin: 0;
+  #intro_info{
+    margin-top: 85px;
+    position: absolute;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 200%;
+    width: 100%;
+    left: 50%;
+    top: 82%;
+    transform: translate(-50%, -100%);
+    color: white;
+    z-index: 10;
+    white-space: nowrap;
+  }  
+  .background_image{
+    position: absolute;
+    margin-top: 30px;
+    width: 100%;
+    height: 115%;
+    overflow: hidden;
+    opacity: 0.9;
+  }
+  .profile_pic{
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -100%);
+    border: 4px solid rgb(14, 14, 53);
+    height: auto; 
+    width: auto; 
+    max-width: 250px; 
+    max-height: 250px;
+  }
+  .name_title{
+    position: absolute;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 450%;
+    left: 50%;
+    top: 82%;
+    transform: translate(-50%, -100%);
+    color: white;
+    z-index: 10;
+    white-space: nowrap;
+  }
+}
+
+.projects {
+  padding-bottom: 50px;
+  .project-contain {
+    padding: 0px 200px 0px;
+  }
+  .description {
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-top: 40px;
+  }
+  .project {
+    position: relative;
+    cursor: pointer;
+    padding: 20px;
+    border-top: solid 1px black;
+    #project1 {
+      position: relative;
+      cursor: pointer;
+      padding: 20px;
+      border-top: solid 1px black;
+    }
+    .p-subinfo {
+      font-weight: 300;
+      float: right;
+      text-align: right;
+    }
+    .p-description {
+      font-weight: 300;
+      padding-top: 40px;
+    }
+    .images {
+      padding-top: 20px;
+    }
+    
+    .image-contain {
+      position: relative;
+      width: 33%;
+      box-sizing: border-box;
+      padding: 20px 10px;
+      display: inline-block;
+    }
+    .image {
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: black 10px 10px 20px 1px;
+    }
+    .lastborder {
+      border-bottom: solid 1px black;
+    }
+    
+    .expand-project {
+      display: none;
+    }
+    
+    .project-contain:hover * {
+      color: white;
+    }
+  }
+  .p-name {
+    font-weight: 300;
+    font-size: 2em;
+  }
+}
+
 #skillstitle{
   position: relative;
   font-family: 'Montserrat';
@@ -184,57 +222,28 @@ html {
   margin-top: 33px;
 }
 
-.project {
+.carousel{
   position: relative;
-  cursor: pointer;
-  padding: 20px;
-  border-top: solid 1px black;
+  border-radius: 16px;
+  height: 15%;
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  z-index: 10;
+  overflow: hidden;
+  margin-bottom: 60px;
+  .image_icon {
+    width: 100%;
+    border-radius: 5px;
+  }
 }
 
-#project1 {
-  position: relative;
-  cursor: pointer;
-  padding: 20px;
-  border-top: solid 1px black;
-}
-
-.p-name {
-  font-weight: 300;
-  font-size: 2em;
-}
-
-.p-subinfo {
-  font-weight: 300;
-  float: right;
-  text-align: right;
-}
-
-.p-description {
-  font-weight: 300;
-  padding-top: 40px;
-}
-
-.images {
-  padding-top: 20px;
-}
-
-.image-contain {
-  position: relative;
-  width: 33%;
-  box-sizing: border-box;
-  padding: 20px 10px;
-  display: inline-block;
-}
-
-.image {
+.slide{
+  position: absolute;
+  display: none;
+  left: 0%;
   width: 100%;
-  border-radius: 5px;
-  box-shadow: black 10px 10px 20px 1px;
-}
-
-.image_icon {
-  width: 100%;
-  border-radius: 5px;
+  height: 100%;
 }
 
 #image_modal{
@@ -257,42 +266,12 @@ html {
   filter: brightness(50%);
 }
 
-.lastborder {
-  border-bottom: solid 1px black;
-}
-
-.expand-project {
-  display: none;
-}
-
-.project-contain:hover * {
-  color: white;
-}
-
-.carousel{
-  position: relative;
-  border-radius: 16px;
-  height: 15%;
-  background-color: white;
-  width: 70%;
-  margin: 0 auto;
-  z-index: 10;
-  overflow: hidden;
-  margin-bottom: 60px;
-}
-
 .moving{
   will-change: left;
   transition: 0.5s ease-in-out left;
 }
 
-.slide{
-  position: absolute;
-  display: none;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-}
+
 
 .image_icon{
   position: absolute;
@@ -502,17 +481,18 @@ html {
   z-index: 100;
   transition: .15s linear padding;
   transition: .15 ease-in-out background-color;
+  #footer_text{
+    /*position: absolusste;*/
+    display: block;
+    float: right;
+    color: white;
+    margin-top: 170px;
+    margin-right: 20px;
+    z-index: 1000;
+  }
 }
 
-#footer_text{
-  /*position: absolusste;*/
-  display: block;
-  float: right;
-  color: white;
-  margin-top: 170px;
-  margin-right: 20px;
-  z-index: 1000;
-}
+
 
 #image_icon4{
   position: absolute;
