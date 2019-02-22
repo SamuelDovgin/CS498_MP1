@@ -1,4 +1,12 @@
 /* Your JS here. */
+/*console.log('Hello World!')*/
+
+//var nameValue = document.getElementById("uniqueID").value;
+
+/*
+test1 = 
+test1.onclick() = Project1();
+test1_2 = document.getElementById("expproj1");*/
 
 var x = document.getElementById("sam_name");
 var project1change = document.getElementById("project1");
@@ -8,6 +16,7 @@ var expproj2_ = document.getElementById("expproj2");
 
 var proj1 = document.getElementsByClassName('project-contain')[0];
 var proj2 = document.getElementsByClassName('project-contain')[1];
+//var proj3 = document.getElementsByClassName('project-contain')[2];
 
 var body = document.getElementsByClassName('body');
 
@@ -15,8 +24,13 @@ proj1.addEventListener('click', function() {
   expproj1_.style.display = 'block';
   expproj1_.style.height = 500;
   document.getElementById("body").style.height = "2800px";
+  //body.style.height += 500;
+  //project1change.style.paddingTop = '50px';
+  //project1change.style.paddingBottom = '30px';
   if(expproj2_.style.display == 'block'){
     expproj2_.style.display = 'none';
+    //project2change.style.paddingTop = '20px';
+    //project2change.style.paddingBottom = '20px';
   }
 });
 
@@ -24,8 +38,12 @@ proj2.addEventListener('click', function() {
   expproj2_.style.display = 'block';
   expproj2_.style.height = 500;
   document.getElementById("body").style.height = "2800px";
+  //project2change.style.paddingTop = '50px';
+  //project2change.style.paddingBottom = '30px';
   if(expproj1_.style.display == 'block'){
     expproj1_.style.display = 'none';
+    //project1change.style.paddingTop = '20px';
+    //project1change.style.paddingBottom = '20px';
   }
 });
 
@@ -34,6 +52,10 @@ var link2 = document.getElementById('skillslink');
 var link3 = document.getElementById('contactlink');
 var sec1 = document.getElementById('projectstitle');
 var sec1 = document.getElementById('contactstitle');
+
+/*var h = document.getElementById('someDiv').clientHeight;
+var h = document.getElementById('someDiv').offsetHeight;
+var h = document.getElementById('someDiv').scrollHeight;*/
 
 var project1_height = 0;
 var project2_height = 0;
