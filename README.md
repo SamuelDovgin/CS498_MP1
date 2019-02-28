@@ -1,6 +1,5 @@
 # Website Link https://samueldovgin.github.io/FrontEnd_Webpage_Portfolio_CS498/
 
-# MP #1: One Web Page To Rule Them All
 ### Due: Feb 18, 11.59PM CDT
 
 ## Table of Contents
