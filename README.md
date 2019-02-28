@@ -1,7 +1,5 @@
 # Website Link https://samueldovgin.github.io/FrontEnd_Webpage_Portfolio_CS498/
 
-### Due: Feb 18, 11.59PM CDT
-
 ## Table of Contents
 1. [Assignment](#assignment)
 2. [Grading Breakdown](#grading-breakdown)
